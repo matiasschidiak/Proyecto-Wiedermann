@@ -1,0 +1,69 @@
+
+
+p{
+    color: white;
+}
+h1,h2,h3,h4{
+    color: white;
+}
+
+html body{
+    margin: 0;
+    background-color: black;
+}
+
+.menu {
+    width: 100%;
+    border-bottom: 2px solid rgba(192, 180, 180,0.3);
+    display: grid;
+    grid-template-columns: 4fr auto;
+    font-family: '"Courier", monospace;
+}
+
+.texto-menu{
+    padding-top: 70px;
+    gap: 70px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.texto-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.main-banner{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 20% auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-texto{
+    position: relative;
+    font-size: 20px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.sobre-nosotros{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 20% 50%;
+}
+
+.sobreN-text{
+    display: grid;
+    grid-template-rows: 30% auto;
+}
+
+.titulo-SN{
+    border-bottom: 2px solid rgba(192, 180, 180,0.3);
+    padding-bottom: 20px;
+}
+
