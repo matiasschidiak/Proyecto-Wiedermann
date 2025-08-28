@@ -1,19 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Contacto</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta de Contacto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
 
+    .card {
+      width: 800px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      display: flex;
+      overflow: hidden;
+    }
+
+    .left {
+      width: 300px;
+      background: linear-gradient(135deg, #7c5cff, #22d3ee);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 0 auto 15px auto;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .role {
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+
+    .actions {
+      margin-top: 20px;
+    }
+
+    .actions a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      margin: 8px 0;
+      padding: 8px;
+      background-color: rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .panel {
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    .panel h3 {
+      margin: 0 0 5px 0;
+      font-size: 1em;
+    }
+
+    .panel p {
+      margin: 0;
+      color: #555;
+      font-size: 0.9em;
+    }
+
+    .socials a {
+      display: inline-block;
+      text-decoration: none;
+      color: #555;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 8px;
+      margin-right: 5px;
+      font-size: 0.9em;
+    }
+
+    .Taller {
+     width: 300px;
+     height: 600px;
+    }
+
+  </style>
+</head>
 <body>
-    <div id="contactoModal" class="modal">
-    <div class="modal-content">
-      <span class="close" id="cerrar">&times;</span>
-      <h2>Contacto</h2>
-      <a href="https://www.instagram.com/interior_vehicular/" target="_blank">📸 Instagram</a>
-      <a href="https://www.facebook.com/search/top?q=interior%20vehicular" target="_blank">👍 Facebook</a>
-      <a href="https://wa.me/5492994213919" target="_blank">WhatsApp</a>
+  <div class="card">
+    <div class="left">
+      <div class="avatar">
+        <img src="imagenes/foto tarjeta de contacto.jpg" alt="Foto de perfil">
+      </div>
+      <div class="name">Emilio Albornoz</div>
+      <div class="role">Inter Car</div>
+      <div class="role">Taller Estetica Vehicular</div>
+
+      <div class="actions">
+        <a href="https://www.instagram.com/interior_vehicular/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/search/top?q=interior%20vehicular" target="_blank">Facebook</a>
+        <a href="https://wa.me/5492994213919" target="_blank">WhatsApp</a>
+        <a href="mailto:neuquen.nqn@gmail.com">Correo electrónico</a>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="panel">
+        <h3>Sobre mi</h3>
+        <p>Especialista en estética vehicular, cuidando cada detalle de tu auto.</p>
+      </div>
+
+      
+      </div>
+      </div>
     </div>
   </div>
-    
 </body>
+</html>
