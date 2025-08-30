@@ -70,21 +70,20 @@ html body{
 
 /* contacto */
 
-/*body {
+.contacto {
       font-family: Arial, sans-serif;
-      background-color: #f0f2f5;
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
       margin: 0;
-    }*/
+    }
 
     .card {
       width: 800px;
       background-color: #ffffff;
       border-radius: 15px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      box-shadow: 0 5px 20px rgba(231, 228, 228, 0.575);
       display: flex;
       overflow: hidden;
     }
