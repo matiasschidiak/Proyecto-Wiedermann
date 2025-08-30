@@ -10,14 +10,15 @@ h1,h2,h3,h4{
 html body{
     margin: 0;
     background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 .menu {
     width: 100%;
     border-bottom: 2px solid rgba(192, 180, 180,0.3);
     display: grid;
     grid-template-columns: 4fr auto;
-    font-family: '"Courier", monospace;
 }
 
 .texto-menu{
@@ -45,27 +46,54 @@ html body{
 
 .banner-texto{
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 0px;
     display: flex;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.sobre-nosotros{
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 20% 50%;
-}
+.sobre-nosotros {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px;
+      gap: 50px;
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      margin-left: 20px;
+      margin-right: 500px;
+      margin-top: 50px;
+      box-shadow: 5px 8px 25px rgba(117, 106, 104, 0.342);
+    }
 
-.sobreN-text{
-    display: grid;
-    grid-template-rows: 30% auto;
-}
+    .sobreN-texto{
+      display: grid;
+      grid-template-rows: 50% 50%;
+    }
 
-.titulo-SN{
-    border-bottom: 2px solid rgba(192, 180, 180,0.3);
-    padding-bottom: 20px;
-}
+    .sobreN-texto .sobreN-titulo{
+      font-size: 30px;
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+      border-bottom: 2px solid rgb(212, 199, 199);
+    }
+
+    .sobreN-texto p {
+      font-size: 18px;
+      
+    }
+
+    .sobreN-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid rgb(212, 199, 199);
+    }
+
+    .sobreN-img img {
+      border-radius: 20px;
+    }
 
 
 /* contacto */
@@ -177,4 +205,5 @@ html body{
     
     .foto-taller {
       text-align: center;
-      margin-top: 40px;}
+      margin-top: 40px;
+    }
