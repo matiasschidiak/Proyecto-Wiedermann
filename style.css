@@ -59,12 +59,12 @@ html body{
       justify-content: space-between;
       padding: 60px;
       gap: 50px;
-      background-color: #1c1c1c;
+      background-color: #161616;
       border-radius: 10px;
       margin-left: 20px;
       margin-right: 500px;
       margin-top: 50px;
-      box-shadow: 5px 8px 25px rgba(117, 106, 104, 0.342);
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
     }
 
     .sobreN-texto{
@@ -110,16 +110,16 @@ html body{
     .card {
       width: 1000px;
       height: 600px;
-      background-color: #ffffff;
+      background-color: #161616;
       border-radius: 15px;
-      box-shadow: 0 5px 20px rgba(231, 228, 228, 0.575);
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
       display: flex;
       overflow: hidden;
     }
 
     .left {
       width: 300px;
-      background: linear-gradient(135deg, #7c5cff, #22d3ee);
+      background: linear-gradient(135deg, #080514, #069499);
       padding: 20px;
       text-align: center;
       color: white;
@@ -170,7 +170,7 @@ html body{
     }
 
     .panel {
-      background-color: #f7f7f7;
+      background-color: #057579;
       border-radius: 10px;
       padding: 15px;
       margin-bottom: 15px;
@@ -183,7 +183,7 @@ html body{
 
     .panel p {
       margin: 0;
-      color: #555;
+      color: #ffffff;
       font-size: 0.9em;
     }
 
