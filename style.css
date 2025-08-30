@@ -80,7 +80,8 @@ html body{
     }
 
     .card {
-      width: 800px;
+      width: 1000px;
+      height: 600px;
       background-color: #ffffff;
       border-radius: 15px;
       box-shadow: 0 5px 20px rgba(231, 228, 228, 0.575);
