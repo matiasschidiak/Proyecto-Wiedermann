@@ -84,15 +84,16 @@ html body{
       
     }
 
-    .sobreN-img {
+    .sobreN-imagen {
       display: flex;
       justify-content: center;
       align-items: center;
       border: 3px solid rgb(212, 199, 199);
+      border-radius: 30px;
     }
 
-    .sobreN-img img {
-      border-radius: 20px;
+    .sobreN-imagen img {
+      border-radius: 25px;
     }
 
 
