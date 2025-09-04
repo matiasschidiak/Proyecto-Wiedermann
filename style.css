@@ -10,14 +10,15 @@ h1,h2,h3,h4{
 html body{
     margin: 0;
     background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 .menu {
     width: 100%;
     border-bottom: 2px solid rgba(192, 180, 180,0.3);
     display: grid;
     grid-template-columns: 4fr auto;
-    font-family: '"Courier", monospace;
 }
 
 .texto-menu{
@@ -45,25 +46,316 @@ html body{
 
 .banner-texto{
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 0px;
     display: flex;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.sobre-nosotros{
+.sobre-nosotros {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px;
+      gap: 50px;
+      background-color: #161616;
+      border-radius: 10px;
+      margin-left: 20px;
+      margin-right: 500px;
+      margin-top: 50px;
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
+    }
+
+    .sobreN-texto{
+      display: grid;
+      grid-template-rows: 50% 50%;
+    }
+
+    .sobreN-texto .sobreN-titulo{
+      font-size: 30px;
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+      border-bottom: 2px solid rgb(212, 199, 199);
+    }
+
+    .sobreN-texto p {
+      font-size: 18px;
+      
+    }
+
+    .sobreN-imagen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid rgb(212, 199, 199);
+      border-radius: 30px;
+    }
+
+    .sobreN-imagen img {
+      border-radius: 25px;
+    }
+
+
+/* contacto */
+
+.contacto {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      width: 1000px;
+      height: 600px;
+      background-color: #161616;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
+      display: flex;
+      overflow: hidden;
+    }
+
+    .left {
+      width: 300px;
+      background: linear-gradient(135deg, #080514, #069499);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 0 auto 15px auto;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .name {
+      font-family: "Times New Roman";
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .role {
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+
+    .actions {
+      margin-top: 20px;
+    }
+
+    .actions a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      margin: 8px 0;
+      padding: 8px;
+      background-color: rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .panel {
+      background-color: #057579;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    .panel h3 {
+      margin: 0 0 5px 0;
+      font-size: 1em;
+    }
+
+    .panel p {
+      margin: 0;
+      color: #ffffff;
+      font-size: 0.9em;
+    }
+
+    .socials a {
+      display: inline-block;
+      text-decoration: none;
+      color: #555;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 8px;
+      margin-right: 5px;
+      font-size: 0.9em;
+    }
+
+    .Taller {
+     width: 300px;
+     height: 600px;
+    }
+    
+    .foto-taller {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+
+/* servicios */
+.servicios{
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      min-height: 10vh;
+      margin: 0;
+}
+  
+     .caja-principal{
+     width: 1000px;
+     height: 900px;
+     border-radius: 15px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr; 
+     gap: 50px;   
+     overflow: hidden;
+     }
+
+    .pulido{ 
+    width: 300px;
+    background: linear-gradient(135deg, #080514, #050505);
     padding: 20px;
-    display: grid;
-    grid-template-columns: 20% 50%;
-}
+    text-align: center;
+    color: rgb(8, 8, 8);
+     }
 
-.sobreN-text{
-    display: grid;
-    grid-template-rows: 30% auto;
-}
+    .encerado{
+     width: 200px;
+     height: auto;
+     border-radius: 0;
+    }
 
-.titulo-SN{
-    border-bottom: 2px solid rgba(192, 180, 180,0.3);
-    padding-bottom: 20px;
-}
+    .titulo{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
 
+    .contenido{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .descripcion{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+
+    .panel{
+    width: 300px;
+    background: linear-gradient(135deg, #080514, #050505);
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    }
+
+    .imagen{
+     width: 200px;
+     height: auto;
+     border-radius: 0
+    }
+
+    .titulo-limpieza{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .contenido-limpieza{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .descripcion-limpieza{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .panel-tratamiento{
+    width: 300px;
+    background: linear-gradient(135deg, #080514, #050505);
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    }
+
+    .imagen-tratamiento{
+     width: 200px;
+     height: auto;
+     border-radius: 0
+    }
+
+    .titulo-tratamiento{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .contenido-tratamiento{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .descripcion-tratamiento{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .panel-lavado{
+    width: 300px;
+    background: linear-gradient(135deg, #080514, #050505);
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    }
+
+    .imagen-lavado{
+     width: 200px;
+     height: auto;
+     border-radius: 0
+    }
+
+    .titulo-premium{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .contenido-premium{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .descripcion-premium{
+      font-family: "Times New Roman";
+      font-size: 1em;
+      font-weight: bold;
+    }

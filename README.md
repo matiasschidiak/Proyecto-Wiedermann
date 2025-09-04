@@ -1,4 +1,4 @@
-Proyecto - Wedermann 5to°2da
+Proyecto - Wiedermann 5to°2da
 -Bruno Arias
 -Antonio Schiro
 -Funes Enzo
