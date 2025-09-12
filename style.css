@@ -40,7 +40,7 @@ html body{
 .main-banner{
     padding: 50px;
     display: grid;
-    grid-template-rows: 20% auto;
+    grid-template-rows: auto auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -52,6 +52,15 @@ html body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+.banner-img{
+  text-align: center;;
+}
+
+.banner-img img{
+  width: 1350px;
+  height: auto;
+}
+
 
 .sobre-nosotros {
       display: flex;
