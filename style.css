@@ -206,17 +206,15 @@ html body{
       padding: 8px;
       border-radius: 8px;
       text-align: center;
-      transition: 0.3s;
       background-color: #FF6B35;
       color: #fff;
       border: 1px solid #e85d2a;
-      transition: all 0.3s ease;
-
+      transition: 0.3s;
     }
 
     .right {
       flex: 1;
-      padding: 20px;
+      padding: 40px;
     }
 
     .panel {
