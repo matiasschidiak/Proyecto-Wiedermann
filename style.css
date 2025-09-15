@@ -1,10 +1,10 @@
 
 
 p{
-    color: white;
+    color: rgb(209, 203, 203);
 }
 h1,h2,h3,h4{
-    color: white;
+    color: rgb(209, 203, 203);
 }
 
 html body{
@@ -34,7 +34,7 @@ html body{
 
 .texto-menu a{
     text-decoration: none;
-    color: white;
+    color: rgb(209, 203, 203);
     font-size: 1.2rem;
     position: relative;
     padding-bottom: 5px;
@@ -47,7 +47,7 @@ html body{
     bottom: 0;
     width: 0%;
     height: 2px;
-    background-color: white;
+    background-color: rgb(209, 203, 203);
     transition: width 0.35s ease-out;
 }
 
@@ -66,7 +66,6 @@ html body{
     padding: 50px;
     display: grid;
     grid-template-rows: auto auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .banner-texto{
@@ -104,9 +103,23 @@ html body{
       border-radius: 10px;
       max-width: 2000px;
       margin: 40px auto;
-      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
+      box-shadow: 0 5px 20px rgb(0, 90, 90);
       flex-wrap: wrap;
+      transition: transform 0.3s ease;
     }
+    .sobre-nosotros:hover {
+      transform: scale(1.05);
+    }
+    .sobre-nosotros:hover{animation:aparicion-sombra-tarjeta 0.35s linear both} 
+    @keyframes aparicion-sombra-tarjeta{
+      0%{box-shadow: 0 5px 20px rgb(0, 90, 90);}
+      100%{box-shadow: 0 5px 20px rgb(2, 158, 158);}
+    }
+    .sobre-nosotros{animation:desvanecimiento-sombra-tarjeta 0.35s linear both} 
+    @keyframes desvanecimiento-sombra-tarjeta{
+      0%{box-shadow: 0 5px 20px rgb(2, 158, 158);}
+      100%{box-shadow: 0 5px 20px rgb(0, 90, 90);}
+      }
 
     .sobreN-texto{
       display: grid;
@@ -473,7 +486,7 @@ html body{
     }
 
     .titulo a{
-      color: rgb(223, 217, 217);
+      color: rgb(209, 203, 203);
       font-size: 1.9em;
       font-weight: bold;
       text-decoration: none;
