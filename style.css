@@ -256,16 +256,13 @@ html body{
 
 /* servicios */
 .servicios{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 10vh;
+      text-align: center;
+      font-size: 2em;
 }
   
      .caja-principal{
      width: 1000px;
      height: 900px;
-     border-radius: 15px;
      display: grid;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr; 
