@@ -157,7 +157,7 @@ html body{
       width: 850px;
       height: 600px;
       background-color: #161616;
-      border-radius: 15px;
+      border-radius: 20px;
       box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
       display: flex;
       overflow: hidden;
