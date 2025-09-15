@@ -260,26 +260,39 @@ html body{
       font-size: 2em;
 }
   
-     .caja-principal{
-     width: 1000px;
-     height: 900px;
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 1fr; 
-     gap: 50px;   
-     overflow: hidden;
+    .caja-principal{
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr; 
+      gap: 50px;   
+      overflow: hidden;
      }
 
-    .pulido{ 
-    width: 300px;
-    background: linear-gradient(135deg, #080514, #050505);
-    padding: 20px;
-    text-align: center;
-    color: rgb(8, 8, 8);
-     }
+
+    .pulido-encerado{
+      width: 100%;
+      height: 100%;
+    }
+    
+    .limpieza-interior{
+      width: 100%;
+      height: 100%;
+    }
+
+    .tratamiento-ceramico{
+      width: 100%;
+      height: 100%;
+    }
+
+    .lavado-premium{
+      width: 100%;
+      height: 100%;
+    }
+
 
     .contenido{
-     width: 200px;
      height: auto;
      border-radius: 0;
     }
@@ -291,96 +304,6 @@ html body{
     }
 
     .descripcion{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-
-    .panel{
-    width: 300px;
-    background: linear-gradient(135deg, #080514, #050505);
-    padding: 20px;
-    text-align: center;
-    color: rgb(8, 8, 8);
-    }
-
-    .imagen{
-     width: 200px;
-     height: auto;
-     border-radius: 0
-    }
-
-    .titulo-limpieza{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .contenido-limpieza{
-
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .descripcion-limpieza{
-
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .tratamiento-ceramico{
-    width: 300px;
-    background: linear-gradient(135deg, #080514, #050505);
-    padding: 20px;
-    text-align: center;
-    color: rgb(8, 8, 8);
-    }
-
-    .imagen-tratamiento{
-     width: 200px;
-     height: auto;
-     border-radius: 0
-    }
-
-    .titulo-tratamiento{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .contenido-tratamiento{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .descripcion-tratamiento{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .panel-lavado{
-    width: 300px;
-    background: linear-gradient(135deg, #080514, #050505);
-    padding: 20px;
-    text-align: center;
-    color: rgb(8, 8, 8);
-    }
-
-    .imagen-lavado{
-     width: 200px;
-     height: auto;
-     border-radius: 0
-    }
-
-    .titulo-premium{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .contenido-premium{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .descripcion-premium{
       font-size: 1em;
       font-weight: bold;
     }
