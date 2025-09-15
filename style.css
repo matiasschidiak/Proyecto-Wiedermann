@@ -344,7 +344,7 @@ html body{
 
     .lavado-premium{
       background-color: #161616;
-      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
+      box-shadow: 0 5px 20px rgba(0,128,128);
       border-radius: 10px;
       padding: 30px;
       margin: 30px;
