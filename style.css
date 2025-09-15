@@ -202,11 +202,14 @@ html body{
     .actions a {
       display: block;
       text-decoration: none;
-      color: white;
       margin: 8px 0;
       padding: 8px;
-      background-color: rgba(0,0,0,0.1);
       border-radius: 8px;
+      text-align: center;
+      transition: 0.3s;
+      background-color: #FF6B35;
+      color: #fff;
+
     }
 
     .right {
