@@ -280,23 +280,19 @@ html body{
     }
 
     .pulido-encerado{
-      background-color: #001433;
-      border: 2px solid rgb(58, 56, 56);
+      background-color: #161616;
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
       border-radius: 10px;
       padding: 30px;
       margin: 10px;
       width: 300px;
       height: 400px;
       text-align: center;
-      display: grid;
-    }
-    .contenido{
-      padding: 5px;
     }
     
     .limpieza-interior{
-      background-color: #001433;
-      border: 2px solid rgb(58, 56, 56);
+      background-color: #161616;
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
       border-radius: 10px;
       padding: 30px;
       margin: 10px;
@@ -306,8 +302,8 @@ html body{
     }
 
     .tratamiento-ceramico{
-      background-color: #001433;
-      border: 2px solid rgb(58, 56, 56);
+      background-color: #161616;
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
       border-radius: 10px;
       padding: 30px;
       margin: 10px;
@@ -317,8 +313,8 @@ html body{
     }
 
     .lavado-premium{
-      background-color: #001433;
-      border: 2px solid rgb(58, 56, 56);
+      background-color: #161616;
+      box-shadow: 0 5px 20px rgba(134, 134, 134, 0.575);
       border-radius: 10px;
       padding: 30px;
       margin: 10px;
@@ -329,8 +325,7 @@ html body{
 
 
     .contenido{
-     height: auto;
-     border-radius: 0;
+      padding: 5px;
     }
 
     .titulo a{
@@ -343,4 +338,12 @@ html body{
     .descripcion{
       font-size: 1em;
       font-weight: bold;
+    }
+
+    .imagen{
+      margin-bottom: 30px;
+    }
+    .imagen img{
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(226, 224, 224, 0.575);
     }
