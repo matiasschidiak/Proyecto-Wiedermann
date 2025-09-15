@@ -260,7 +260,7 @@ html body{
       font-size: 2em;
 }
   
-    .caja-principal{
+    .main-content{
       width: 100%;
       height: 100%;
       display: grid;
@@ -268,27 +268,55 @@ html body{
       grid-template-rows: 1fr 1fr; 
       gap: 50px;   
       overflow: hidden;
+      flex-wrap: wrap;
      }
 
 
     .pulido-encerado{
-      width: 100%;
-      height: 100%;
+      background-color: #011e49;
+      border: 1px solid rgb(121, 120, 120);
+      border-radius: 10px;
+      padding: 30px;
+      margin: 10px;
+      width: 300px;
+      height: 400px;
+      text-align: center;
+    }
+    .contenido{
+      padding: 5px;
     }
     
     .limpieza-interior{
-      width: 100%;
-      height: 100%;
+      background-color: #011e49;
+      border: 1px solid rgb(121, 120, 120);
+      border-radius: 10px;
+      padding: 30px;
+      margin: 10px;
+      width: 300px;
+      height: 400px;
+      text-align: center;
     }
 
     .tratamiento-ceramico{
-      width: 100%;
-      height: 100%;
+      background-color: #011e49;
+      border: 1px solid rgb(121, 120, 120);
+      border-radius: 10px;
+      padding: 30px;
+      margin: 10px;
+      width: 300px;
+      height: 400px;
+      text-align: center;
     }
 
     .lavado-premium{
-      width: 100%;
-      height: 100%;
+      background-color: #011e49;
+      border: 1px solid rgb(121, 120, 120);
+      border-radius: 10px;
+      padding: 30px;
+      margin: 10px;
+      width: 300px;
+      height: 400px;
+      text-align: center;
     }
 
 
