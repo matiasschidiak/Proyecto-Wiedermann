@@ -253,7 +253,7 @@ html body{
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
-.actions a:hover {
+  .actions a:hover {
     background-color: #9a9a9a;
     transform: scale(1.1);
   }
@@ -272,8 +272,6 @@ html body{
     }
     .panel h3,
     .panel p {
-     font-family: 'Roboto', sans-serif;
-     font-style: italic;
      color: #dddddd;
      line-height: 1.6;
     }
@@ -440,7 +438,7 @@ html body{
 
 
     .contenido{
-      padding: 5px;
+      padding: 3px;
     }
 
  
@@ -466,11 +464,16 @@ html body{
     }
 
     .titulo{
-
+      background: rgb(2, 71, 71);
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid rgba(192, 180, 180,0.3); 
     }
 
     .titulo a{
-      color: white;
+      color: rgb(223, 217, 217);
       font-size: 1.9em;
       font-weight: bold;
       text-decoration: none;
