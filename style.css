@@ -165,7 +165,7 @@ html body{
 
     .left {
       width: 300px;
-      background: linear-gradient(135deg, #00416A, #00B4DB);
+      background: linear-gradient(135deg, #000000, #51015a);
       padding: 20px;
       text-align: center;
       color: white;
@@ -188,6 +188,8 @@ html body{
     .name {
       font-size: 1.8em;
       font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+
     }
 
     .role {
@@ -206,9 +208,9 @@ html body{
       padding: 8px;
       border-radius: 8px;
       text-align: center;
-      background-color: #FF6B35;
-      color: #fff;
-      border: 1px solid #e85d2a;
+      background-color: #000000;
+      color: #a6a6a6;
+      border: 1px solid #b2b1b1;
       transition: 0.3s;
     }
 
