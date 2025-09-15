@@ -281,18 +281,13 @@ html body{
     color: rgb(8, 8, 8);
      }
 
-    .encerado{
+    .contenido{
      width: 200px;
      height: auto;
      border-radius: 0;
     }
 
     .titulo{
-      font-size: 1em;
-      font-weight: bold;
-    }
-
-    .contenido{
 
       font-size: 1em;
       font-weight: bold;
@@ -335,7 +330,7 @@ html body{
       font-weight: bold;
     }
 
-    .panel-tratamiento{
+    .tratamiento-ceramico{
     width: 300px;
     background: linear-gradient(135deg, #080514, #050505);
     padding: 20px;
