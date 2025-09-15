@@ -174,7 +174,7 @@ html body{
     .avatar {
       width: 140px;
       height: 140px;
-      border-radius: 20px;
+      border-radius: 50%;
       overflow: hidden;
       margin: 0 auto 15px auto;
     }
