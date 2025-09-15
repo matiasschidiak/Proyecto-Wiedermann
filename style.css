@@ -51,9 +51,11 @@ html body{
 
 .banner-texto{
     font-size: 25px;
-    align-items: center;
     text-align: center;
     animation: fadeInUp 1.5s ease-in-out;
+    padding: 0px 20%;
+    display: flex;
+    justify-content: center;
 }
 @keyframes fadeInUp {
   0% { opacity: 0; transform: translateY(20px); }
