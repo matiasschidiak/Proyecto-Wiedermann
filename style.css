@@ -36,7 +36,27 @@ html body{
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
-    
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.texto-menu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.35s ease-out;
+}
+
+.texto-menu a:hover::after {
+    width: 100%;
+}
+
+.texto-menu:active{ 
+  transform: translateY(0) scale(.98) 
 }
 
 
