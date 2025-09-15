@@ -189,12 +189,14 @@ html body{
       font-size: 1.8em;
       font-weight: bold;
       font-family: 'Poppins', sans-serif;
-
     }
 
     .role {
       font-size: 0.9em;
       margin-top: 5px;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+
     }
 
     .actions {
