@@ -64,24 +64,6 @@ html body{
   height: auto; 
 }
 
-@media (max-width: 768px) {
-  .texto-menu {
-    gap: 20px;
-    justify-content: center;
-    padding-top: 20px;
-  }
-
-  .banner-texto {
-    font-size: 1.2rem;
-    padding: 0 10px;
-  }
-
-  .main-banner {
-    padding: 20px;
-  }
-}
-
-
 .sobre-nosotros {
       display: flex;
       align-items: center;
@@ -143,6 +125,20 @@ html body{
   .sobreN-texto {
     max-width: 100%;
   }
+   .texto-menu {
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .banner-texto {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+  .main-banner {
+    padding: 20px;
+  }
 }
 
 
@@ -190,7 +186,6 @@ html body{
     }
 
     .name {
-      font-family: "Times New Roman";
       font-size: 1.5em;
       font-weight: bold;
     }
@@ -261,12 +256,10 @@ html body{
 
 /* servicios */
 .servicios{
-      font-family: Arial, sans-serif;
       display: flex;
-      justify-content: left;
+      justify-content: center;
       align-items: center;
       min-height: 10vh;
-      margin: 0;
 }
   
      .caja-principal{
@@ -295,19 +288,17 @@ html body{
     }
 
     .titulo{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
 
     .contenido{
-      font-family: "Times New Roman";
+
       font-size: 1em;
       font-weight: bold;
     }
 
     .descripcion{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
@@ -328,19 +319,18 @@ html body{
     }
 
     .titulo-limpieza{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
 
     .contenido-limpieza{
-      font-family: "Times New Roman";
+
       font-size: 1em;
       font-weight: bold;
     }
 
     .descripcion-limpieza{
-      font-family: "Times New Roman";
+
       font-size: 1em;
       font-weight: bold;
     }
@@ -360,19 +350,16 @@ html body{
     }
 
     .titulo-tratamiento{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
 
     .contenido-tratamiento{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
 
     .descripcion-tratamiento{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
@@ -392,19 +379,16 @@ html body{
     }
 
     .titulo-premium{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
 
     .contenido-premium{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
 
     .descripcion-premium{
-      font-family: "Times New Roman";
       font-size: 1em;
       font-weight: bold;
     }
