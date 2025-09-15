@@ -8,11 +8,12 @@ h1,h2,h3,h4{
 }
 
 html body{
+    height: 100%;
+    width: 100%;
     margin: 0;
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 .menu {
     width: 100%;
@@ -52,7 +53,7 @@ html body{
     font-size: 25px;
     align-items: center;
     text-align: center;
-    animation: fadeInUp 2s ease-in-out;
+    animation: fadeInUp 1.5s ease-in-out;
 }
 @keyframes fadeInUp {
   0% { opacity: 0; transform: translateY(20px); }
@@ -148,6 +149,14 @@ html body{
   }
 }
 
+.footer-inicio{
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+  color: #ccc;
+}
 
 /* contacto */
 
