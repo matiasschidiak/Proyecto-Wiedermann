@@ -210,6 +210,7 @@ html body{
       background-color: #FF6B35;
       color: #fff;
       border: 1px solid #e85d2a;
+      transition: all 0.3s ease;
 
     }
 
