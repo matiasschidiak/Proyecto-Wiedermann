@@ -17,12 +17,12 @@ html body{
 
 .menu {
     width: 100%;
-    border-bottom: 2px solid rgba(192, 180, 180,0.3);
+    border-bottom: 2px solid rgba(192, 180, 180, 0.3);
     display: grid;
     grid-template-columns: 1fr auto;
 }
 
-.texto-menu{
+.texto-menu {
     padding-top: 70px;
     gap: 70px;
     display: flex;
@@ -30,9 +30,16 @@ html body{
     padding-right: 30px;
     flex-wrap: wrap;
     justify-content: flex-end;
+    list-style: none;
+    margin: 0;
 }
 
-.texto-menu a{
+.texto-menu li {
+    position: relative;
+    list-style: none;
+}
+
+.texto-menu a {
     text-decoration: none;
     color: rgb(209, 203, 203);
     font-size: 1.2rem;
@@ -53,11 +60,57 @@ html body{
 
 .texto-menu a:hover::after {
     width: 100%;
+    
+}
+.texto-menu ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #555;
+    transition: width 0.35s ease-out;
 }
 
-.texto-menu:active{ 
-  transform: translateY(0) scale(.98) 
+.texto-menu a:hover::after {
+    width: 100%;
 }
+
+.desplegable-servicios {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #eee;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+    z-index: 1000;
+}
+
+.desplegable-servicios li {
+    width: 100%;
+}
+
+.desplegable-servicios a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.desplegable-servicios a:hover {
+    background: #ddd;
+}
+
+
+.menu-servicios:hover .desplegable-servicios {
+    display: block;
+}
+
+
 
 
 /* inicio */
