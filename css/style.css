@@ -138,6 +138,7 @@ html body{
 .banner-img{
   text-align: center;
   padding: 10px;
+  animation: fadeInUp 1.5s ease-in-out;
   
 }
 
@@ -397,6 +398,7 @@ html body{
       display: flex;
       justify-content: center;
       align-items: center; 
+      animation: fadeInUp 1s ease-in-out;
     }
 
     .pulido-encerado{
@@ -524,7 +526,7 @@ html body{
       object-fit: cover;
     }
 
-    .texto{
+    .texto-servicios{
       display: grid;
       grid-template-rows: 40% ;
     }
@@ -544,3 +546,6 @@ html body{
       font-weight: bold;
       text-decoration: none;
     }
+
+    /*Servicios Individuales*/
+
