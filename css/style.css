@@ -11,6 +11,7 @@ html body{
     height: 100%;
     width: 100%;
     margin: 0;
+    padding: 0;
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -108,6 +109,17 @@ html body{
 
 .menu-servicios:hover .desplegable-servicios {
     display: block;
+}
+
+
+.footer{
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 50px;
 }
 
 
@@ -238,14 +250,7 @@ html body{
   }
 }
 
-.footer-inicio{
-  background: #111;
-  text-align: center;
-  padding: 20px;
-  border-top: 1px solid rgba(255,255,255,0.1);
-  font-size: 0.9rem;
-  color: #ccc;
-}
+
 
 /* contacto */
 
@@ -471,7 +476,7 @@ html body{
 
 
 /* servicios */
-.servicios{
+.Servicios{
       text-align: center;
       font-size: 2em;
 }
@@ -483,6 +488,8 @@ html body{
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 30px;
       overflow: hidden;
+      margin-bottom: 0;
+      padding-bottom: 0;
 }
      
 
@@ -500,7 +507,7 @@ html body{
       box-shadow: 0 5px 20px rgb(0, 90, 90);
       border-radius: 10px;
       padding: 30px;
-      margin: 40px;
+      margin: 40px 40px 70px 40px;
       width: 300px;
       height: 400px;
       text-align: center;
@@ -525,7 +532,7 @@ html body{
       box-shadow: 0 5px 20px rgb(0, 90, 90);
       border-radius: 10px;
       padding: 30px;
-      margin: 40px;
+      margin: 40px 40px 70px 40px;
       width: 300px;
       height: 400px;
       text-align: center;
@@ -551,7 +558,7 @@ html body{
       box-shadow: 0 5px 20px rgb(0, 90, 90);
       border-radius: 10px;
       padding: 30px;
-      margin: 40px;
+      margin: 40px 40px 70px 40px;
       width: 300px;
       height: 400px;
       text-align: center;
@@ -577,7 +584,7 @@ html body{
       box-shadow: 0 5px 20px rgb(0, 90, 90);
       border-radius: 10px;
       padding: 30px;
-      margin: 40px;
+      margin: 40px 40px 70px 40px;
       width: 300px;
       height: 400px;
       text-align: center;
