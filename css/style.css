@@ -404,6 +404,70 @@ html body{
     from { transform: translateX(0) scale(0.9); }
     to { transform: translateX(50px) scale(1.05); }
   }
+   .fondo-tarjeta {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(to top, #555 30%, #ddd 100%);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.fondo-tarjeta::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: radial-gradient(circle at center, rgba(0,0,0,0.4), transparent 70%);
+}
+
+.auto-css {
+  position: relative;
+  width: 220px;
+  height: 100px;
+  animation: mover 3s ease-in-out infinite alternate;
+}
+
+
+.carroceria {
+  width: 220px;
+  height: 60px;
+  background: linear-gradient(to right, #202020, #555);
+  border-radius: 25px 25px 10px 10px;
+  position: absolute;
+  top: 20px;
+  box-shadow: inset 0 0 10px rgba(255,255,255,0.2);
+}
+
+.rueda {
+  width: 45px;
+  height: 45px;
+  background: #111;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  border: 4px solid #444;
+  animation: girar 0.8s linear infinite;
+}
+
+.rueda1 { left: 15px; }
+.rueda2 { right: 15px; }
+
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes mover {
+  0% { transform: translateX(0) scale(0.95); }
+  100% { transform: translateX(40px) scale(1.05); }
+}
+
 
 
 /* servicios */
