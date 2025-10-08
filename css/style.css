@@ -376,7 +376,7 @@ html body{
     .carroceria {
       width: 200px;
       height: 60px;
-      background: linear-gradient(to right, #333, #666);
+      background: linear-gradient(to right, #969495, #4b4949);
       border-radius: 20px;
       position: absolute;
       top: 20px;
@@ -385,7 +385,7 @@ html body{
     .rueda {
       width: 40px;
       height: 40px;
-      background: black;
+      background: rgb(72, 15, 49);
       border-radius: 50%;
       position: absolute;
       bottom: 0;
