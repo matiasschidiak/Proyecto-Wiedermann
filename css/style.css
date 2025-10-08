@@ -365,22 +365,45 @@ html body{
       font-size: 0.9em;
     }
 
-    .Taller {
-     width: 300px;
-     height: 600px;
-    }
-    
-    .foto-taller {
-      text-align: center;
-      margin-top: 40px;
+    .auto-css {
+      position: relative;
+      width: 200px;
+      height: 100px;
+      margin: 100px auto;
+      animation: mover 4s ease-in-out infinite alternate;
     }
 
-    .auto {
-      width: 300px;
-      height: auto;
-      transform: scale(0.8);
-      animation: acercarse 2.5s ease-out forwards;
+    .carroceria {
+      width: 200px;
+      height: 60px;
+      background: linear-gradient(to right, #333, #666);
+      border-radius: 20px;
+      position: absolute;
+      top: 20px;
     }
+
+    .rueda {
+      width: 40px;
+      height: 40px;
+      background: black;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 0;
+      animation: girar 1s linear infinite;
+    }
+
+    .rueda1 { left: 20px; }
+    .rueda2 { right: 20px; }
+
+    @keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+    }
+
+    @keyframes mover {
+    from { transform: translateX(0) scale(0.9); }
+    to { transform: translateX(50px) scale(1.05); }
+  }
 
 
 /* servicios */
