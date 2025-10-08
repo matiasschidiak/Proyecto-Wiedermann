@@ -142,7 +142,7 @@ html body{
     justify-content: center;
 }
 @keyframes fadeInUp {
-  0% { opacity: 0; transform: translateY(20px); }
+  0% { opacity: 0; transform: translateY(-20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
@@ -192,7 +192,9 @@ html body{
       grid-template-rows: 50% 15%;
       max-width: 1500px;
     }
-
+    .sobre-nosotros h2{
+      text-shadow: 2px 2px 40px white;
+    }
     .sobreN-texto p {
       font-size: 18px;
       
@@ -479,6 +481,8 @@ html body{
 .Servicios{
       text-align: center;
       font-size: 2em;
+      text-shadow: 2px 2px 50px white;
+      animation: fadeInUp 1s ease-in-out;
 }
   
     .main-content{
@@ -650,16 +654,35 @@ html body{
 
     /*Servicios Individuales*/
 
+
     .txt-servicio{
       padding: 15px 150px;
       margin: 40px 200px;
       border-radius: 25px;
       background: #161616;
       box-shadow: 0 5px 20px rgba(0, 90, 90, 0.6);
+      animation: fadeInUp 1s ease-in-out;
+      transition: transform 0.3s ease, box-shadow 0.35s linear;
     }
+    .txt-servicio:hover {
+      transform: scale(1.05);
+    }
+    .txt-servicio:hover{animation:aparicion-sombra-tarjeta 0.35s linear both} 
+    @keyframes aparicion-sombra-tarjeta{
+      0%{box-shadow: 0 5px 20px rgb(0, 90, 90);}
+      100%{box-shadow: 0 5px 20px rgb(2, 158, 158);}
+    }
+    .txt-servicio{animation:desvanecimiento-sombra-tarjeta 0.35s linear both} 
+    @keyframes desvanecimiento-sombra-tarjeta{
+      0%{box-shadow: 0 5px 20px rgb(2, 158, 158);}
+      100%{box-shadow: 0 5px 20px rgb(0, 90, 90);}
+      }
+
+
     .txt-servicio h1{
           text-align: center;
           font-size: 3em;
+          text-shadow: 2px 2px 40px white;
     }
     .txt-servicio p{
           text-align: center;
@@ -672,6 +695,7 @@ html body{
       height: 550px;
       perspective: 1000px;
       margin: 40px auto;
+      animation: fadeInUp 1s ease-in-out;
     }
 
     .tarjeta-inner {
