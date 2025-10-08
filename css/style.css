@@ -375,6 +375,13 @@ html body{
       margin-top: 40px;
     }
 
+    .auto {
+      width: 400px;
+      height: auto;
+      transform: scale(0.8);
+      animation: acercarse 2.5s ease-out forwards;
+    }
+
 
 /* servicios */
 .servicios{
