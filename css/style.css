@@ -318,7 +318,7 @@ html body{
     .actions a {
     display: block;
     text-decoration: none;
-    color: #008080;
+    color: lab(42.9% 64.53 48.4);
     margin: 8px 0;
     padding: 8px;
     background-color: #000000;
