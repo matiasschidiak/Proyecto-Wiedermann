@@ -330,8 +330,8 @@ html body{
   .actions a:hover {
     background-color: #9a9a9a;
     transform: scale(1.1);
+    animation: vibracion 0.3s linear both;
   }
-
 
     .right {
       flex: 1;
@@ -475,6 +475,12 @@ html body{
   100% { transform: translateX(40px) scale(1.05); }
 }
 
+@keyframes vibracion {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+}
 
 
 /* servicios */
