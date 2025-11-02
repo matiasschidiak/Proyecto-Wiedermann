@@ -169,6 +169,13 @@ html body{
       box-shadow: 0 5px 20px rgb(0, 90, 90);
       flex-wrap: wrap;
       transition: transform 0.3s ease;
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .sobre-nosotros.visible {
+      opacity: 1;
+      transform: translateY(0);
     }
     .sobre-nosotros:hover {
       transform: scale(1.05);
