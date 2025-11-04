@@ -5,8 +5,5 @@ document.addEventListener("DOMContentLoaded", function() {
   boton.addEventListener("click", function() {
     // Mostrar ventana emergente
     alert("¡Bienvenido/a la página!");
-
-    // Mostrar mensaje dentro del sitio
-    mensaje.textContent = "¡Bienvenido/a la página!";
   });
 });
