@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   boton.addEventListener("click", function() {
     // Mostrar ventana emergente
-    alert("¡Bienvenido/a la página!");
+    alert("¡Esperamos que encuentres lo que buscas en Inter Car!");
   });
 });
