@@ -7,14 +7,6 @@ h1,h2,h3,h4{
     color: rgb(209, 203, 203);
 }
 
-.bienvenida {
-    text-align: center;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    color: white;
-    border-bottom: 2px solid rgba(192, 180, 180, 0.3);
-}
-
 html body{
     height: 100%;
     width: 100%;
@@ -22,6 +14,14 @@ html body{
     padding: 0;
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bienvenida {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+    border-bottom: 2px solid rgba(192, 180, 180, 0.3);
 }
 
 .menu {
@@ -219,8 +219,6 @@ html body{
     .sobreN-texto .sobreN-parrafo{
       padding-bottom: 80px;
     }
-
-
 
     .sobreN-imagen {
       display: flex;
