@@ -28,6 +28,7 @@ if (contenedor) {
     observer2.observe(contenedor);
 }
 
+//mensaje de bienvenida
 document.addEventListener("DOMContentLoaded", function() {
   const boton = document.getElementById("botonBienvenida");
   const mensaje = document.getElementById("mensaje");
