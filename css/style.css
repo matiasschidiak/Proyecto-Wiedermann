@@ -760,45 +760,78 @@ html body{
       transform: rotateY(180deg);
     }
 
-    .contenedor{
+    .contenedor {
       display: flex;
-      margin-left: 400px;
-      margin-right: 400px;
-      margin-top: 100px;
-      padding-left: 300px;
-      padding-right: 300px;
-      gap: 100px;
+      justify-content: center;
+      align-items: stretch;
+      flex-wrap: wrap;
+      gap: 80px;
+      margin: 100px auto;
+      padding: 0 50px;
+      max-width: 1200px;
       opacity: 0;
       transform: translateY(50px);
       transition: opacity 1s ease-out, transform 1s ease-out;
     }
+    
     .contenedor.visible {
       opacity: 1;
       transform: translateY(0);
     }
-
-    .marcas{
-      padding: 50px;
+    
+    .marcas, .detalle, .asesoramiento {
+      flex: 1 1 300px; /* se adapta entre 1 y 3 columnas */
+      background: #161616;
+      border-radius: 20px;
+      padding: 40px 25px;
       text-align: center;
       font-size: 20px;
       font-weight: bold;
+      box-shadow: 0 5px 20px rgba(0, 90, 90, 0.6);
+      transition: transform 0.3s ease, box-shadow 0.35s linear;
     }
-    .detalle{
-      padding: 50px;
-      text-align: center;
-      font-size: 20px;
-      font-weight: bold;
+    
+    .marcas:hover, .detalle:hover, .asesoramiento:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 20px rgb(2, 158, 158);
     }
-    .asesoramiento{
-      padding: 50px;
-      text-align: center;
-      font-size: 20px;
-      font-weight: bold;
-      
-    }
-
-    .contenedor h3{
+    
+    .contenedor h3 {
       text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
       font-size: 27px;
     }
+    
+    /* 📱 RESPONSIVE DESIGN */
+    @media (max-width: 1024px) {
+      .contenedor {
+        gap: 60px;
+        padding: 0 40px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .contenedor {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 0 30px;
+        margin-top: 60px;
+      }
+    
+      .marcas, .detalle, .asesoramiento {
+        width: 100%;
+        max-width: 500px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .contenedor {
+        padding: 0 15px;
+        gap: 40px;
+      }}
+    
+      .marcas, .detalle, .asesoramiento {
+        font-size: 18px;
+        padding: 30px 20px;
+      }
 
